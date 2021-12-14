@@ -1,11 +1,9 @@
-import creational.abstract_factory.AbstractFactory;
-import creational.abstract_factory.AbstractFactoryMain;
-import creational.abstract_factory.FactoryProducer;
-import creational.abstract_factory.Shape;
+
+import creational.factory_method.FactoryMethodMain;
 
 public class Main {
 
     public static void main(String[] args) {
-        AbstractFactoryMain.runMain();
+        FactoryMethodMain.runMain();
     }
 }
