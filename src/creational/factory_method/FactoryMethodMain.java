@@ -2,24 +2,24 @@ package creational.factory_method;
 
 public class FactoryMethodMain {
     public static void runMain() {
-        ShapeFactory shapeFactory = new ShapeFactory();
+        VehicleFactory shapeFactory = new VehicleFactory();
 
         //get an object of Circle and call its draw method.
-        Shape shape1 = shapeFactory.getShape("CIRCLE");
+        Vehicle vehicle1 = shapeFactory.getVehicle("CIRCLE");
 
         //call draw method of Circle
-        shape1.draw();
+        vehicle1.showWheels();
 
         //get an object of Rectangle and call its draw method.
-        Shape shape2 = shapeFactory.getShape("RECTANGLE");
+        Vehicle vehicle2 = shapeFactory.getVehicle("RECTANGLE");
 
         //call draw method of Rectangle
-        shape2.draw();
+        vehicle2.showWheels();
 
         //get an object of Square and call its draw method.
-        Shape shape3 = shapeFactory.getShape("SQUARE");
+        Vehicle vehicle3 = shapeFactory.getVehicle("SQUARE");
 
         //call draw method of square
-        shape3.draw();
+        vehicle3.showWheels();
     }
 }
